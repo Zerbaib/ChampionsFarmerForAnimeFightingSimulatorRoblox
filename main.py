@@ -5,4 +5,4 @@ import pyautogui
 print(pyautogui.size())
 
 pyautogui.moveTo(120, 250, duration = 1)
-pyautogui.click(120, 250)
+pyautogui.click()
