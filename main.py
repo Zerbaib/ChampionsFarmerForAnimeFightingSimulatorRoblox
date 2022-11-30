@@ -1,8 +1,9 @@
 import verifsecu
 import pyautogui
+from screenposition import *
 
 # permet de savoir la taille de l'ecran
 print(pyautogui.size())
 
-pyautogui.moveTo(120, 250, duration = 1)
+pyautogui.moveTo(firstClick, duration = 1)
 pyautogui.click()
