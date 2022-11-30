@@ -7,3 +7,12 @@ print(pyautogui.size())
 
 pyautogui.moveTo(firstClick, duration = 1)
 pyautogui.click()
+
+pyautogui.moveTo(twoClick, duration = 1)
+pyautogui.click()
+
+pyautogui.moveTo(threeClick, duration = 1)
+pyautogui.click()
+
+pyautogui.moveTo(fourClick, duration = 1)
+pyautogui.click()
